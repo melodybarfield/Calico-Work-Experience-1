@@ -826,6 +826,14 @@ img {
     padding: 18px 12px;
     column-gap: 12px;
   }
+
+  .playbook-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-inner {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 768px) {
@@ -880,9 +888,5 @@ img {
 
   .footer-grid {
     grid-template-columns: 1fr;
-  }
-
-  .hero-inner {
-    flex-direction: column-reverse;
   }
 }
