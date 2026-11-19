@@ -223,6 +223,11 @@ img {
   min-width: 0;
 }
 
+.site-header--home nav > .btn {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 .site-header--home .nav-links {
   flex-wrap: nowrap;
   gap: 0;
