@@ -832,9 +832,9 @@ img {
     column-gap: 12px;
   }
 
-  .playbook-grid {
+  /* .playbook-grid {
     grid-template-columns: 1fr;
-  }
+  } */
 
   .hero-inner {
     flex-direction: column-reverse;

@@ -188,9 +188,22 @@
           <div class="playbook-grid">
             <article class="card">
               <img
-                src="images/playbook-reviews.jpg"
+                src="images/playbook-reviews-800.jpg"
+                srcset="
+                  images/playbook-reviews-400.jpg   400w,
+                  images/playbook-reviews-800.jpg   800w,
+                  images/playbook-reviews-1500.jpg 1500w
+                "
+                sizes="
+                  (min-width: 1200px) 363px,
+                  (min-width: 1004px) calc((100vw - 110px) / 3),
+                  (min-width: 676px) calc((100vw - 80px) / 2),
+                   calc(100vw - 50px)
+        "
+                loading="lazy"
                 alt="A customer typing a review on their phone"
               />
+
               <div class="card-body">
                 <span class="card-tag">Reviews</span>
                 <h3>Turn happy customers into new ones</h3>
