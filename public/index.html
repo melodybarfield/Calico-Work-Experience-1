@@ -303,7 +303,17 @@
         <div class="container">
           <div class="cta-band">
             <img
-              src="images/team-workshop.jpg"
+              src="images/team-workshop-1200.jpg"
+              srcset="
+                images/team-workshop-600.jpg   600w,
+                images/team-workshop-1200.jpg 1200w,
+                images/team-workshop-1800.jpg 1800w
+              "
+              sizes="
+              (min-width: 1200px) 1152px,
+              calc(100vw - 48px)
+              "
+              loading="lazy"
               alt="The Calico Media team planning around a whiteboard"
             />
             <div class="cta-body">
