@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Calico Media marketing site */
 
 :root {
@@ -436,7 +452,7 @@ img {
 
 .playbook-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 28px;
 }
 
@@ -832,9 +848,9 @@ img {
     column-gap: 12px;
   }
 
-  .playbook-grid {
+  /* .playbook-grid {
     grid-template-columns: 1fr;
-  }
+  } */
 
   .hero-inner {
     flex-direction: column-reverse;

@@ -8,12 +8,6 @@
       name="description"
       content="Calico helps local businesses grow their customer base with specific, measurable, realistic goals and a rapid growth plan you can run every week."
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -83,7 +77,13 @@
           <div class="hero-media">
             <img
               class="hero-image"
-              src="images/hero-weekly-plan.jpg"
+              src="images/hero-weekly-plan-1200.jpg"
+              srcset="
+                images/hero-weekly-plan-600.jpg   600w,
+                images/hero-weekly-plan-1200.jpg 1200w,
+                images/hero-weekly-plan-1800.jpg 1800w
+              "
+              sizes="(max-width: 648px) calc(100vw - 48px), 600px"
               alt="A business owner at her desk with a laptop and an open planner"
             />
           </div>
@@ -114,7 +114,17 @@
           <div class="feature-row">
             <div class="feature-media">
               <img
-                src="images/feature-goal-builder.jpg"
+                src="images/feature-goal-builder-800.jpg"
+                srcset="
+                  images/feature-goal-builder-400.jpg   400w,
+                  images/feature-goal-builder-800.jpg   800w,
+                  images/feature-goal-builder-1600.jpg 1600w
+                "
+                sizes="
+                (min-width: 769px) calc((100vw - 112px) / 2),
+                calc(100vw - 48px)
+                "
+                loading="lazy"
                 alt="Growth charts on a laptop and phone beside a cup of tea"
               />
             </div>
@@ -133,7 +143,17 @@
           <div class="feature-row feature-row--reverse">
             <div class="feature-media">
               <img
-                src="images/feature-growth-plan.jpg"
+                src="images/feature-growth-plan-800.jpg"
+                srcset="
+                  images/feature-growth-plan-400.jpg   400w,
+                  images/feature-growth-plan-800.jpg   800w,
+                  images/feature-growth-plan-1600.jpg 1600w
+                "
+                sizes="
+                (min-width: 769px) calc((100vw - 112px) / 2),
+                calc(100vw - 48px)
+          "
+                loading="lazy"
                 alt="An open planner showing the weeks ahead"
               />
             </div>
@@ -151,7 +171,17 @@
           <div class="feature-row">
             <div class="feature-media">
               <img
-                src="images/feature-monday-checkin.jpg"
+                src="images/feature-monday-checkin-800.jpg"
+                srcset="
+                  images/feature-monday-checkin-400.jpg   400w,
+                  images/feature-monday-checkin-800.jpg   800w,
+                  images/feature-monday-checkin-1600.jpg 1600w
+                "
+                sizes="
+                (min-width: 769px) calc((100vw - 112px) / 2),
+                calc(100vw - 48px)
+                "
+                loading="lazy"
                 alt="Checking a phone over coffee on a Monday morning"
               />
             </div>
@@ -182,9 +212,22 @@
           <div class="playbook-grid">
             <article class="card">
               <img
-                src="images/playbook-reviews.jpg"
+                src="images/playbook-reviews-800.jpg"
+                srcset="
+                  images/playbook-reviews-400.jpg   400w,
+                  images/playbook-reviews-800.jpg   800w,
+                  images/playbook-reviews-1500.jpg 1500w
+                "
+                sizes="
+                  (min-width: 1200px) 363px,
+                  (min-width: 1004px) calc((100vw - 110px) / 3),
+                  (min-width: 676px) calc((100vw - 80px) / 2),
+                   calc(100vw - 50px)
+          "
+                loading="lazy"
                 alt="A customer typing a review on their phone"
               />
+
               <div class="card-body">
                 <span class="card-tag">Reviews</span>
                 <h3>Turn happy customers into new ones</h3>
@@ -196,7 +239,19 @@
             </article>
             <article class="card">
               <img
-                src="images/playbook-referrals.jpg"
+                src="images/playbook-referrals-800.jpg"
+                srcset="
+                  images/playbook-referrals-400.jpg   400w,
+                  images/playbook-referrals-800.jpg   800w,
+                  images/playbook-referrals-1500.jpg 1500w
+                "
+                sizes="
+                  (min-width: 1200px) 363px,
+                  (min-width: 1004px) calc((100vw - 110px) / 3),
+                  (min-width: 676px) calc((100vw - 80px) / 2),
+                  calc(100vw - 50px)
+              "
+                loading="lazy"
                 alt="A group class stretching together in a yoga studio"
               />
               <div class="card-body">
@@ -210,7 +265,19 @@
             </article>
             <article class="card">
               <img
-                src="images/playbook-rebooking.jpg"
+                src="images/playbook-rebooking-800.jpg"
+                srcset="
+                  images/playbook-rebooking-400.jpg   400w,
+                  images/playbook-rebooking-800.jpg   800w,
+                  images/playbook-rebooking-1500.jpg 1500w
+                "
+                sizes="
+                  (min-width: 1200px) 363px,
+                  (min-width: 1004px) calc((100vw - 110px) / 3),
+                  (min-width: 676px) calc((100vw - 80px) / 2),
+                  calc(100vw - 50px)
+                "
+                loading="lazy"
                 alt="A customer at the front desk booking her next visit"
               />
               <div class="card-body">
@@ -230,7 +297,17 @@
         <div class="container">
           <div class="cta-band">
             <img
-              src="images/team-workshop.jpg"
+              src="images/team-workshop-1200.jpg"
+              srcset="
+                images/team-workshop-600.jpg   600w,
+                images/team-workshop-1200.jpg 1200w,
+                images/team-workshop-1800.jpg 1800w
+              "
+              sizes="
+              (min-width: 1200px) 1152px,
+              calc(100vw - 48px)
+              "
+              loading="lazy"
               alt="The Calico Media team planning around a whiteboard"
             />
             <div class="cta-body">
