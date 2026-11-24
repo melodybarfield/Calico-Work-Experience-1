@@ -24,10 +24,15 @@ app.post("/contact", (req, res) => {
     return res.json({ ok: true });
   }
 
-  const formLoadedAt = Number(req.body.formLoadedAt);
+  const formLoadedAt = req.body.formLoadedAt;
+
+  if (!Number.isFinite(formLoadedAt)) {
+    return res.json({ ok: true });
+  }
+
   const elapsedTime = Date.now() - formLoadedAt;
 
-  if (!Number.isFinite(formLoadedAt) || elapsedTime < 3000) {
+  if (elapsedTime < 3000) {
     return res.json({ ok: true });
   }
 
