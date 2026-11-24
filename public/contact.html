@@ -46,6 +46,18 @@
           <label for="message">How can we help?</label>
           <textarea id="message" name="message" required></textarea>
 
+          <!-- Honeypot field -->
+          <div class="contact-form__honeypot" aria-hidden="true">
+            <label for="website">Website</label>
+            <input
+              type="text"
+              id="website"
+              name="website"
+              tabindex="-1"
+              autocomplete="off"
+            >
+          </div>
+
           <button class="btn" type="submit">Send message</button>
           <p class="form-status" id="form-status" role="status"></p>
         </form>
